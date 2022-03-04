@@ -216,6 +216,10 @@ body {
         background-size: auto;
     }
 
+    .box-about img {
+        margin-left: 0;
+    }
+
     #run-buddy {
         margin-left: 0;
         grid-row-start: 1;
