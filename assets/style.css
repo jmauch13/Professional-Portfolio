@@ -140,14 +140,19 @@ body {
 /* start styling for buttons inside larger grid boxes */
 #robot-gladiators div {
     margin: 160px 80px 5px 5px;
+    width: 100px;
+    height: 80px;
 }
 
 #run-buddy div {
     margin: 210px 80px 5px 5px;
+    width: 100px;
+    height: 80px;
 }
 
 .grid-box div {
-    width: fit-content;
+    width: 80px;
+    height: 50px;
     background-color: blue;
     padding: 6px 6px;
     border-radius: 10%;
@@ -163,6 +168,10 @@ body {
 
 .grid-box h3 {
     font-size: 1.1rem;
+}
+
+.grid-box h3 p {
+    font-size: 0.9rem;
 }
 /* end styling for buttons inside grid boxes */
 
@@ -197,9 +206,14 @@ body {
 }
 /* end grid image styling and Work section styling */
 
-/* start styling for Contact section grid */
-#contact {
-    display: grid;
+/* start styling for Contact flex section */
+address {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(104, 16, 99);
+    height: 200px;
+    justify-content: space-around;
 }
 
 #contact h2 {
@@ -227,7 +241,7 @@ body {
 #contact address a:hover {
     background-color: rgb(104, 16, 99);
     color: azure;
-    border: 4px solid blue;
+    border: 6px solid blue;
     padding: 20px;
     border-radius: 25px;
 }
