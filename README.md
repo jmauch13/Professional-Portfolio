@@ -9,4 +9,5 @@ Project was created with:
 ## Website Link
 https://jmauch13.github.io/Professional-Portfolio/
 ## Website image
-![website page](https://user-images.githubusercontent.com/96963955/156872389-d4725669-238f-42a5-8a00-c01afb5462a4.png)
+![updated screenshot](https://user-images.githubusercontent.com/96963955/156898118-527ea9e3-bf08-4f28-acdb-9b79472ef93f.png)
+
