@@ -144,6 +144,12 @@ body {
     height: 80px;
 }
 
+#the-zen-project div {
+    margin: 160px 80px 5px 5px;
+    width: 100px;
+    height: 95px;
+}
+
 #run-buddy div {
     margin: 210px 80px 5px 5px;
     width: 100px;
