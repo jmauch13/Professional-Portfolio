@@ -1,11 +1,12 @@
 * {
-    margin: 10px 0 50px 0;
+    margin: 30px 0 50px 0;
     padding: 0;
 }
 
 /* start header styling */
 header {
     background-color: lightgray;
+    height: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,24 +16,26 @@ header {
 
 /* styling for Jennie Mauch */
 header h1 {
-    font-size: 7vw;
+    font-size: 8vw;
     text-decoration: underline overline rgb(104, 16, 99);
-    line-height: 1.1;
+    line-height: 1.0;
     color: blue;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 /* styling for navigation menu */
 nav a {
     background-color: blue;
     color: azure;
+    font-family: 'Merienda', cursive;
     text-decoration: none;
     text-transform: uppercase;
     border: 4px solid rgb(104, 16, 99);
     padding: 20px;
     border-radius: 25px;
-    margin: 10px;
+    margin: 30px;
 }
 
 header nav {
@@ -40,6 +43,8 @@ header nav {
     flex-wrap: wrap;
     list-style: none;
     justify-content: flex-end;
+    margin-right: 25px;
+    
 }
 
 /* styling for navigation menu when hovered over */
@@ -60,7 +65,8 @@ body {
 /* styling for background banner image */
 .bgSizeCover {
     background-image: url("./images/background-four.jpg");
-    height: 500px;
+    height: 450px;
+    margin-top: 5px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,11 +74,12 @@ body {
 
 /* start styling for About section */
 #about h2 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-decoration: underline overline rgb(104, 16, 99);
     text-align: center;
     color: blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 /* styling for container holding image and text in About section */
@@ -96,6 +103,7 @@ body {
 
 .box-about p {
     text-align: center;
+    font-family: 'Merienda', cursive;
     font-size: 24px;
     margin: 20px;
 }
@@ -106,9 +114,10 @@ body {
     text-align: center;
     text-decoration: underline overline rgb(104, 16, 99);
     margin-top: 10px;
-    font-size: 5vw;
+    font-size: 6vw;
     color: blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 /* styling for grid used in Work section starts */
@@ -173,10 +182,12 @@ body {
 }
 
 .grid-box h3 {
+    margin-top: 2px;
     font-size: 1.1rem;
 }
 
 .grid-box h3 p {
+    margin-top: 8px;
     font-size: 0.9rem;
 }
 /* end styling for buttons inside grid boxes */
@@ -225,16 +236,18 @@ address {
 #contact h2 {
     text-align: center;
     text-decoration: underline overline rgb(104, 16, 99);
-    font-size: 5vw;
+    font-size: 6vw;
     color: blue;
     margin-bottom: 75px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 /* styling for contact buttons */
 #contact address a {
     background-color: blue;
     color: azure;
+    font-family: 'Merienda', cursive;
     text-decoration: none;
     text-transform: uppercase;
     border: 4px solid rgb(104, 16, 99);
