@@ -159,7 +159,7 @@ body {
     height: 95px;
 }
 
-#run-buddy div {
+#upcycle-store div {
     margin: 210px 80px 5px 5px;
     width: 100px;
     height: 80px;
@@ -193,10 +193,10 @@ body {
 /* end styling for buttons inside grid boxes */
 
 /* start grid box images styling */
-#run-buddy {
+#upcycle-store {
     width: 600px;
     height: 350px;
-    background-image: url("./images/runpic.png");
+    background-image: url("./images/upcycle.png");
 }
 
 #robot-gladiators {
